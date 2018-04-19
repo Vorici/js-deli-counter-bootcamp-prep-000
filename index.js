@@ -1,10 +1,12 @@
 katzDeli = [];
+number = [];
 
-function takeANumber(katzDeli, name){
-  
-  katzDeli.push(name);
-  
-  return "Welcome, " + name + ". You are number " + katzDeli.length + " in line."
+function takeANumber(katzDeli){
+  for (i = 0; i < number.length; i++){
+  number.push(i);
+  }
+
+  return  " You are number " + number 
 }
 
 function nowServing(katzDeli){
